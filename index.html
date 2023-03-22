@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ckeckcodes</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="container two">
+            <a href="landpage.htm">
+                <img src="img/logo.svg" alt="" width="120px">
+            </a>
+            <!-- <a href="#" class="logo">BuySome</a> -->
+            <a id="cal" onclick="show()"  title="Calculator">cal <span class="rightarrow">&rarr;</span></a>
+            <i class='bx bx-shopping-bag' id="cart-icon" title="Cart"></i>
+        </nav>
+        
+        <!-- CART -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">₦ 0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class='bx bx-x' id="close-cart"></i> 
+        </div>
+    </header>
+    <div class="first-sec">
+        <div class="text">
+            <h4>Mouse Products</h4>
+        </div>
+       
+          <header id="contain">
+            <div id="display"></div>
+            <div class="buttons">
+                <div class="but-fle">
+                    <div class="button c assign" title="clear">C</div>
+                    <div class="button assign">/</div>
+                    <div class="button assign">*</div>
+                    <div class="button assign">&larr;</div>
+                </div>
+                <div class="but-fle">
+                    <div class="button num">7</div>
+                    <div class="button num">8</div>
+                    <div class="button num">9</div>
+                    <div class="button assign">-</div>
+                </div>
+                <div class="but-fle">
+                    <div class="button num">4</div>
+                    <div class="button num">5</div>
+                    <div class="button num">6</div>
+                    <div class="button assign">+</div>
+                </div>
+                <div class="but-fle">
+                    <div class="button num">1</div>
+                    <div class="button num">2</div>
+                    <div class="button num">3</div>
+                    <div class="button assign">.</div>
+                </div>
+                <div class="but-fle">
+                    <div class="button num">(</div>
+                    <div class="button num">0</div>
+                    <div class="button num">)</div>
+                    <div id="equal" class="button">=</div>
+                </div>
+            </div>
+         </header> 
+         <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#171427" fill-opacity="1" d="M0,224L80,240C160,256,320,288,480,266.7C640,245,800,171,960,128C1120,85,1280,75,1360,69.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    </div>
+   
+    <section class=" shop container sec1">
+        <div class="section-title">
+            <img class="title-img" src="img/mouse/Wired gaming 4,500.png" alt="" width="40px">
+            <h2 >Quality Mouse</h2>
+        </div>
+        <div class="shop-content">
+            <!-- PRODUCT 1 -->
+            <div class="product-box">
+                <img class="product-img" src="img/HP Wired 1,500.png" alt="">
+                <h2 class="product-title">HP Wired mouse</h2>
+                <span class="price">₦ 1500</span>
+                <i class='bx bxs-cart-add add-cart'></i>
+            </div>
+             <!-- PRODUCT 2 -->
+            <div class="product-box">
+                <img class="product-img" src="img/HP X9500 wireless.png" alt="">
+                <h2 class="product-title">HP X9500 wireless</h2>
+                <span class="price">₦ 2500</span>
+                <i class='bx bxs-cart-add add-cart'></i>
+            </div>
+             <!-- PRODUCT 3 -->
+            <div class="product-box">
+                <img class="product-img" src="img/Ms Gaming Mouse  3,500.png" alt="">
+                <h2 class="product-title">Ms Gaming Mouse</h2>
+                <span class="price">₦ 3500</span>
+                <i class='bx bxs-cart-add add-cart'></i>
+            </div>
+             <!-- PRODUCT 4 -->
+            <div class="product-box">
+                <img class="product-img" src="img/optical mouse   1,800.png" alt="">
+                <h2 class="product-title">Optical mouse</h2>
+                <span class="price">₦ 1800</span>
+                <i class='bx bxs-cart-add add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
